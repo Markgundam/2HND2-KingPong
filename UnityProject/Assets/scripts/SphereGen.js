@@ -1,8 +1,8 @@
 ﻿#pragma strict
-var redsphere:Rigidbody2D;
-var greensphere:Rigidbody2D;
-var yellowsphere:Rigidbody2D;
-var bluesphere:Rigidbody2D;
+var redsphere:Rigidbody;
+var greensphere:Rigidbody;
+var yellowsphere:Rigidbody;
+var bluesphere:Rigidbody;
 
 function generatesphere () 
 {
