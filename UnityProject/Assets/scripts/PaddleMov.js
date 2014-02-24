@@ -36,13 +36,13 @@ function OnTriggerEnter (ball:Collider) {
 	
 	if(ball.gameObject.tag == "Redsphere") 
 	{
-		this.score = score+2;
+		this.score = score-2;
 		Destroy(ball.gameObject);
 	}
 	
 	if(ball.gameObject.tag == "Bluesphere") 
 	{
-		this.score++;
+		this.score = score+2;
 		Destroy(ball.gameObject);
 	}
 	
@@ -63,6 +63,6 @@ function OnGUI ()
 {
 	
 	GUI.color = Color.white;
-	GUI.Label(Rect(2,3,100,50),"Score:"+score);
+	GUI.Label(Rect(10,10,100,50),"Score:"+score);
 
 }
