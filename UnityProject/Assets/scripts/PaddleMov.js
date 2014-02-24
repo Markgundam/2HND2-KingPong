@@ -64,5 +64,13 @@ function OnGUI ()
 	
 	GUI.color = Color.white;
 	GUI.Label(Rect(10,10,100,50),"Score:"+score);
+	GUI.color = Color.red;
+	GUI.Label(Rect(10,50,100,50),"Red: -2");
+	GUI.color = Color.blue;
+	GUI.Label(Rect(10,70,100,50),"Blue: +2");	
+	GUI.color = Color.yellow;
+	GUI.Label(Rect(10,90,100,50),"Yellow: +1");
+	GUI.color = Color.green;
+	GUI.Label(Rect(10,110,100,50),"Green: -1");	
 
 }
